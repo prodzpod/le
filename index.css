@@ -1,0 +1,40 @@
+* {    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#enter {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: calc(50vw - 50px);
+    top: calc(50vh - 50px);
+    border: transparent;
+    background-color: lightgray;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#popup {
+    width: 300px;
+    height: 150px;
+    position: absolute;
+    left: calc(50vw - 150px);
+    top: calc(50vh - 75px);
+    text-align: center;
+    background-color: white;
+    border: 3px solid lightgray;
+    border-radius: 15px;
+    display: none;
+}
+
+#share {
+    background-color: rgb(120, 177, 89);
+    color: white;
+    font-weight: bold;
+    border: transparent;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 150%;
+}
